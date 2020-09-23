@@ -1,0 +1,10 @@
+body {
+    background-image: radial-gradient(circle, #6690cf, #0097c0, #009698, #339064, #6c8339);
+}
+
+img {
+    width: 190%;
+    position: relative;
+    left: 180px;
+    bottom: 20px;
+}
