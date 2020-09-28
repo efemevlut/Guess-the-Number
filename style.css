@@ -3,8 +3,30 @@ body {
 }
 
 img {
-    width: 190%;
+    height: 450px;
     position: relative;
     left: 180px;
     bottom: 20px;
 }
+
+@media(max-width: 810px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    img {
+        height: 20vh;
+        position: relative !important;
+        left: 20px;
+    }
+}
+
+@media(max-width: 400px) {
+    h1{
+        font-size: 2rem;
+    }
+}
+    
